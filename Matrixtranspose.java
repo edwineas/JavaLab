@@ -6,9 +6,9 @@ class Matrixtranspose
       int i,j;
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter the order of the matrix");
-      int n = sc.nextInt();
       int m = sc.nextInt();
-      int mat[][] = new int[n][m];
+      int n = sc.nextInt();
+      int mat[][] = new int[m][n];
       System.out.println("Enter the elements of the matrix");
       for (i=0;i<m;i++)
          for(j=0;j<n;j++)
