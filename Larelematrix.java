@@ -5,7 +5,7 @@ class Larelematrix
    {
       int i,j;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter the order of the matrix");
+      System.out.print("Enter the order of the matrix\t");
       int n = sc.nextInt();
       int m = sc.nextInt();
       int mat[][] = new int[n][m];

@@ -5,7 +5,7 @@ class Matrixsum
    {
       int i,j;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter the order of the First matrix");
+      System.out.print("Enter the order of the First matrix\t");
       int n1 = sc.nextInt();
       int m1 = sc.nextInt();
       int mat1[][] = new int[n1][m1];
@@ -13,7 +13,7 @@ class Matrixsum
       for (i=0;i<n1;i++)
          for(j=0;j<m1;j++)
             mat1[i][j] = sc.nextInt();
-      System.out.println("Enter the order of the Second matrix");
+      System.out.print("Enter the order of the Second matrix\t");
       int n2 = sc.nextInt();
       int m2 = sc.nextInt();
       int mat2[][] = new int[n2][m2];
