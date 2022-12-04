@@ -5,7 +5,7 @@ class Arraysum
          {
                   int s=0;
                   Scanner sc = new Scanner(System.in);
-                  System.out.println("Enter the size of the array");
+                  System.out.print("Enter the size of the array\t");
                   int n=sc.nextInt();
                   int arr[] = new int[n];
                   System.out.println("Enter the elements");
@@ -14,7 +14,7 @@ class Arraysum
                            arr[i]=sc.nextInt();
                            s+=arr[i];
                   }
-                  System.out.println("Sum of elements of an array is "+s);
+                  System.out.println("Sum of elements of the array is "+s);
                   
          }
 }
