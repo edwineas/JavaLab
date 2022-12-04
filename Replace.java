@@ -8,7 +8,7 @@ class Replace
                   int n=sc.nextInt();
                   int arr[] = new int[n];
                   int i,flag=0;
-                  System.out.println("Enter the elements");
+                  System.out.print("Enter the elements\t");
                   for(i=0;i<n;i++)
                            arr[i]=sc.nextInt();
                   System.out.print("Enter the element to be replaced\t");                  
@@ -25,7 +25,7 @@ class Replace
                            System.out.println("Element to be replced is not found");
                   else
                   {
-                           System.out.println("Replaced array is");
+                           System.out.print("Replaced array is\t");
                            for(i=0;i<n;i++)
                                     System.out.print(arr[i]+" ");
                   } 

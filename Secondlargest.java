@@ -5,7 +5,7 @@ class Secondlargest
    {  
       int a,b=0,i;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter the size of the array");
+      System.out.print("Enter the size of the array\t");
       int n=sc.nextInt();
       int arr[] = new int[n];
       System.out.println("Enter the elements");
