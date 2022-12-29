@@ -5,7 +5,7 @@ class Trace
    {
       int i,j, trace=0;
       Scanner sc = new Scanner(System.in);
-      System.out.print("Enter the order of the matrix");
+      System.out.print("Enter the order of the matrix\t");
       int n = sc.nextInt();
       int m = sc.nextInt();
       int a[][] = new int[n][m];
