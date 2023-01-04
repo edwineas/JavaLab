@@ -16,9 +16,9 @@ class StringPal
                 break;
             }
         }
-            if(flag==0)
-                System.out.println(s1 + " is palindrome");
-            else
-                System.out.println(s1 + " is not palindrome");
+        if(flag==0)
+            System.out.println(s1 + " is palindrome");
+        else
+            System.out.println(s1 + " is not palindrome");
     }
 }
