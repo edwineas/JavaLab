@@ -14,7 +14,7 @@ class Perimeter
 		System.out.println("Perimeter of triangle is "+(x+y+z));
 	}
 }
-class Test
+class TestPerimeter
 {
 	public static void main(String args[])
 	{

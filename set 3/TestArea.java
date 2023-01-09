@@ -15,7 +15,7 @@ class Area
 		System.out.println("Perimeter of triangle is "+Math.sqrt(s*(s-x)*(s-y)*(s-z)));
 	}
 }
-class Test
+class TestArea
 {
 	public static void main(String args[])
 	{

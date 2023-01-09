@@ -25,7 +25,7 @@ class Student
 			System.out.println("Mark of sub"+(i+1)+" : \t"+mark[i]);
 	}
 }
-class Test
+class TestStudent
 {
 	public static void main(String args[])
 	{
